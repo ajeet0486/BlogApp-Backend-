@@ -10,7 +10,7 @@ const app = express();
 app.use(cors());
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://samar0486:samar0486@allbackends.xm3hwao.mongodb.net/a', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://samar0486:samar0486@allbackends.xm3hwao.mongodb.net/BlogApp', { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.error('MongoDB connection error:', err));
 
