@@ -9,6 +9,7 @@ const app = express();
 // Enable CORS
 app.use(cors());
 
+//check g
 // MongoDB connection
 mongoose.connect('mongodb+srv://samar0486:samar0486@allbackends.xm3hwao.mongodb.net/BlogApp', { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('MongoDB connected'))
